@@ -1,0 +1,181 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "poke_cassette:cassette_trader",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:persistent": {},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:timer": {
+				"looping": false,
+				"random_time_choices": [
+					{
+						"weight": 50,
+						"value": 2400
+					},
+					{
+						"weight": 50,
+						"value": 3600
+					}
+				],
+				"time_down_event": {
+					"event": "poke_cassette:despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:spawn_entity": {
+				"entities": [
+					{
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"spawn_entity": "poke_cassette:retro_llama",
+						"spawn_event": "minecraft:from_wandering_trader",
+						"single_use": true,
+						"num_to_spawn": 2,
+						"should_leash": true
+					}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"interval": 120,
+				"xz_dist": 10,
+				"y_dist": 7,
+				"priority": 7
+			},
+			"minecraft:type_family": {
+				"family": [
+					"poke:traders",
+					"wandering_trader",
+					"mob"
+				]
+			},
+			"minecraft:health": {
+				"value": 20
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:movement": {
+				"min": 0.20,
+				"max": 0.35
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.trade_with_player": {
+				"priority": 1
+			},
+			"minecraft:economy_trade_table": {
+				"display_name": "%entity.cassette_trader.name",
+				"table": "trading/economy_trades/poke/cassette/cassette_trader.trade.json",
+				"new_screen": true,
+				"hero_demand_discount": 0,
+				"persist_trades": false,
+				"cured_discount": [
+					-4,
+					-5
+				],
+				"convert_trades_economy": false,
+				"max_cured_discount": [
+					-25,
+					-63
+				],
+				"use_legacy_price_formula": false
+			},
+			"minecraft:behavior.look_at_trading_player": {
+				"priority": 2
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:equip_item": {},
+			"minecraft:behavior.equip_item": {
+				"priority": 0
+			},
+			"minecraft:equippable": {},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:inventory": {
+				"container_type": "inventory",
+				"inventory_size": 5,
+				"private": false,
+				"restrict_to_owner": true
+			},
+			"minecraft:movement.basic": {
+				"max_turn": 30
+			},
+			"minecraft:navigation.generic": {
+				"avoid_damage_blocks": true,
+				"avoid_portals": true,
+				"avoid_sun": false,
+				"avoid_water": true,
+				"blocks_to_avoid": [],
+				"can_breach": false,
+				"can_break_doors": false,
+				"can_jump": true,
+				"can_open_doors": true,
+				"can_open_iron_doors": false,
+				"can_pass_doors": true,
+				"can_path_from_air": false,
+				"can_path_over_lava": false,
+				"can_path_over_water": false,
+				"can_sink": false,
+				"can_swim": false,
+				"can_walk": true,
+				"can_walk_in_lava": false,
+				"is_amphibious": false
+			},
+			"minecraft:equipment": {
+				"slot_drop_chance": [
+					{
+						"slot": "slot.weapon.mainhand",
+						"drop_chance": 100
+					},
+					{
+						"slot": "slot.armor.head",
+						"drop_chance": 100
+					},
+					{
+						"slot": "slot.armor.feet",
+						"drop_chance": 100
+					},
+					{
+						"slot": "slot.armor.legs",
+						"drop_chance": 100
+					},
+					{
+						"slot": "slot.armor.chest",
+						"drop_chance": 100
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"poke_cassette:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"events": {
+			"poke_cassette:despawn": {
+				"add": {
+					"component_groups": [
+						"poke_cassette:despawn"
+					]
+				}
+			}
+		}
+	}
+}

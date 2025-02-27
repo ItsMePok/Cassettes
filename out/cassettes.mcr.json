@@ -1,0 +1,222 @@
+{
+  "info": {
+    "behaviorPackManifestCount": 0,
+    "unknownJsonCount": 0,
+    "entityTypeManifestCount": 0,
+    "itemTypeManifestCount": 0,
+    "blockTypeManifestCount": 0,
+    "resourcePackManifestCount": 0,
+    "worldCount": 0,
+    "entityTypeResourceCount": 0,
+    "behaviorPackAnimationCount": 0,
+    "behaviorPackAnimationControllerCount": 0,
+    "overallSize": 131983273,
+    "fileCounts": 19909,
+    "folderCounts": 2105,
+    "contentSize": 2705331,
+    "contentFileCounts": 767,
+    "contentFolderCounts": 83,
+    "subpackCount": 0,
+    "subpackTier1Count": 0,
+    "subpackTier2Count": 0,
+    "subpackTier3Count": 0,
+    "subpackTier4Count": 0,
+    "animationCount": 0,
+    "textureCount": 0,
+    "chunkCount": 0,
+    "subchunkLessChunkCount": 0,
+    "worldLoadErrors": 0,
+    "featureSets": {
+      "Textures Entity Resource Count": {
+        "Count": 3
+      },
+      "Textures Texture References": {
+        "Count": 24
+      },
+      "Textures Entity References": {
+        "Count": 24
+      },
+      "Textures Item Texture Resource Count": {
+        "Count": 85
+      },
+      "Textures File Count": {
+        "Count": 89
+      },
+      "Textures Unique Texture Handles (estimated)": {
+        "Count": 3
+      },
+      "Textures Unique Texture Paths": {
+        "Count": 3
+      },
+      "Textures Unique Particle Texture Paths": {
+        "Count": 0
+      },
+      "Textures Unique Particle Texture Vanilla Paths": {
+        "Count": 2
+      },
+      "Textures Unique Entity Texture Paths": {
+        "Count": 3
+      },
+      "Textures Unique Entity Texture Vanilla Paths": {
+        "Count": 21
+      },
+      "Textures Unique Item Texture Paths": {
+        "Count": 85
+      }
+    },
+    "errorCount": 0,
+    "internalProcessingErrorCount": 0,
+    "warningCount": 0,
+    "testSuccessCount": 2,
+    "testFailCount": 1,
+    "errorSummary": "",
+    "internalProcessingErrorSummary": "",
+    "testFailSummary": "TESTFAIL: [CADDONREQ101] Found a loose file in the item_catalog folder. Should only see files in the folder item_catalog\\creatorshortname\\gamename\\: crafting_item_catalog.json",
+    "summary": {
+      "PACKSIZE": {
+        "1": {
+          "title": "Overall Size"
+        },
+        "2": {
+          "title": "File Count"
+        },
+        "3": {
+          "title": "Folder Count"
+        },
+        "4": {
+          "title": "Content Size"
+        },
+        "5": {
+          "title": "Content File Count"
+        },
+        "6": {
+          "title": "Content Folder Count"
+        }
+      },
+      "CADDONREQ": {
+        "101": {
+          "title": "No Loose File In Type Folder",
+          "defaultMessage": "Found a loose file in the item_catalog folder. Should only see files in the folder item_catalog\\creatorshortname\\gamename\\",
+          "testCompleteFails": 1
+        }
+      },
+      "TEXTURE": {
+        "1": {
+          "title": "Textures"
+        }
+      },
+      "WORLDDATA": {
+        "1": {
+          "defaultMessage": "Test World Data Validation completed successfully.",
+          "testCompleteSuccesses": 1
+        }
+      },
+      "CADDONIREQ": {
+        "1": {
+          "defaultMessage": "Test Cooperative Add-On Item Requirements Generator completed successfully.",
+          "testCompleteSuccesses": 1
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 1,
+      "d": 131983273
+    },
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 2,
+      "d": 19909
+    },
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 3,
+      "d": 2105
+    },
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 4,
+      "d": 2705331
+    },
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 5,
+      "d": 767
+    },
+    {
+      "iTp": 7,
+      "gId": "PACKSIZE",
+      "gIx": 6,
+      "d": 83
+    },
+    {
+      "iTp": 1,
+      "gId": "CADDONREQ",
+      "gIx": 101,
+      "d": "crafting_item_catalog.json"
+    },
+    {
+      "iTp": 7,
+      "gId": "TEXTURE",
+      "gIx": 1,
+      "fs": {
+        "Entity Resource Count": {
+          "Count": 3
+        },
+        "Texture References": {
+          "Count": 24
+        },
+        "Entity References": {
+          "Count": 24
+        },
+        "Item Texture Resource Count": {
+          "Count": 85
+        },
+        "File Count": {
+          "Count": 89
+        },
+        "Unique Texture Handles (estimated)": {
+          "Count": 3
+        },
+        "Unique Texture Paths": {
+          "Count": 3
+        },
+        "Unique Particle Texture Paths": {
+          "Count": 0
+        },
+        "Unique Particle Texture Vanilla Paths": {
+          "Count": 2
+        },
+        "Unique Entity Texture Paths": {
+          "Count": 3
+        },
+        "Unique Entity Texture Vanilla Paths": {
+          "Count": 21
+        },
+        "Unique Item Texture Paths": {
+          "Count": 85
+        }
+      }
+    },
+    {
+      "iTp": 0,
+      "gId": "WORLDDATA",
+      "gIx": 1
+    },
+    {
+      "iTp": 0,
+      "gId": "CADDONIREQ",
+      "gIx": 1
+    }
+  ],
+  "generatorName": "Minecraft Creator Tools",
+  "suite": 2,
+  "generatorVersion": "0.7.0"
+}

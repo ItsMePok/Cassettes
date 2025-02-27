@@ -1,0 +1,261 @@
+{
+	"texture_data": {
+		"poke_cassette-cassette_trader_spawn_egg": {
+			"textures": "textures/poke/cassette/cassette_trader_spawn_egg"
+		},
+		"poke_cassette-retro_llama_spawn_egg": {
+			"textures": "textures/poke/cassette/retro_llama_spawn_egg"
+		},
+		"poke_cassette-cassette_pottery_sherd": {
+			"textures": "textures/poke/cassette/cassette_pottery_sherd"
+		},
+		"poke_cassette-cassette_danny": {
+			"textures": "textures/poke/cassette/cassette_danny"
+		},
+		"poke_cassette-cassette_sweden": {
+			"textures": "textures/poke/cassette/cassette_sweden"
+		},
+		"poke_cassette-cassette_clark": {
+			"textures": "textures/poke/cassette/cassette_clark"
+		},
+		"poke_cassette-cassette_dryhands": {
+			"textures": "textures/poke/cassette/cassette_dryhands"
+		},
+		"poke_cassette-cassette_wethands": {
+			"textures": "textures/poke/cassette/cassette_wethands"
+		},
+		"poke_cassette-cassette_miceonvenus": {
+			"textures": "textures/poke/cassette/cassette_miceonvenus"
+		},
+		"poke_cassette-cassette_oxygene": {
+			"textures": "textures/poke/cassette/cassette_oxygene"
+		},
+		"poke_cassette-cassette_minecraft": {
+			"textures": "textures/poke/cassette/cassette_minecraft"
+		},
+		"poke_cassette-cassette_haggstrom": {
+			"textures": "textures/poke/cassette/cassette_haggstrom"
+		},
+		"poke_cassette-cassette_livingmice": {
+			"textures": "textures/poke/cassette/cassette_livingmice"
+		},
+		"poke_cassette-cassette_subwooferlullaby": {
+			"textures": "textures/poke/cassette/cassette_subwooferlullaby"
+		},
+		"poke_cassette-cassette_key": {
+			"textures": "textures/poke/cassette/cassette_key"
+		},
+		"poke_cassette-cassette_taswell": {
+			"textures": "textures/poke/cassette/cassette_taswell"
+		},
+		"poke_cassette-cassette_mutation": {
+			"textures": "textures/poke/cassette/cassette_mutation"
+		},
+		"poke_cassette-cassette_moogcity2": {
+			"textures": "textures/poke/cassette/cassette_moogcity2"
+		},
+		"poke_cassette-cassette_hauntmuskie": {
+			"textures": "textures/poke/cassette/cassette_hauntmuskie"
+		},
+		"poke_cassette-cassette_floatingtrees": {
+			"textures": "textures/poke/cassette/cassette_floatingtrees"
+		},
+		"poke_cassette-cassette_dreiton": {
+			"textures": "textures/poke/cassette/cassette_dreiton"
+		},
+		"poke_cassette-cassette_blindspots": {
+			"textures": "textures/poke/cassette/cassette_blindspots"
+		},
+		"poke_cassette-cassette_biomefest": {
+			"textures": "textures/poke/cassette/cassette_biomefest"
+		},
+		"poke_cassette-cassette_beginning2": {
+			"textures": "textures/poke/cassette/cassette_beginning2"
+		},
+		"poke_cassette-cassette_ariamath": {
+			"textures": "textures/poke/cassette/cassette_ariaMath"
+		},
+		"poke_cassette-cassette_warmth": {
+			"textures": "textures/poke/cassette/cassette_warmth"
+		},
+		"poke_cassette-cassette_deadvoxel": {
+			"textures": "textures/poke/cassette/cassette_deadvoxel"
+		},
+		"poke_cassette-cassette_concretehalls": {
+			"textures": "textures/poke/cassette/cassette_concretehalls"
+		},
+		"poke_cassette-cassette_balladofthecats": {
+			"textures": "textures/poke/cassette/cassette_balladofthecats"
+		},
+		"poke_cassette-cassette_theend": {
+			"textures": "textures/poke/cassette/cassette_theend"
+		},
+		"poke_cassette-cassette_alpha": {
+			"textures": "textures/poke/cassette/cassette_alpha"
+		},
+		"poke_cassette-cassette_boss": {
+			"textures": "textures/poke/cassette/cassette_boss"
+		},
+		"poke_cassette-cassette_lefttobloom": {
+			"textures": "textures/poke/cassette/cassette_lefttobloom"
+		},
+		"poke_cassette-cassette_comfortingmemories": {
+			"textures": "textures/poke/cassette/cassette_comfortingmemories"
+		},
+		"poke_cassette-cassette_anordinaryday": {
+			"textures": "textures/poke/cassette/cassette_anOrdinaryDay"
+		},
+		"poke_cassette-cassette_floatingdream": {
+			"textures": "textures/poke/cassette/cassette_floatingdream"
+		},
+		"poke_cassette-cassette_onemoreday": {
+			"textures": "textures/poke/cassette/cassette_onemoreday"
+		},
+		"poke_cassette-cassette_infiniteamethyst": {
+			"textures": "textures/poke/cassette/cassette_infiniteamethyst"
+		},
+		"poke_cassette-cassette_wending": {
+			"textures": "textures/poke/cassette/cassette_wending"
+		},
+		"poke_cassette-cassette_ancestry": {
+			"textures": "textures/poke/cassette/cassette_ancestry"
+		},
+		"poke_cassette-cassette_standtall": {
+			"textures": "textures/poke/cassette/cassette_standtall"
+		},
+		"poke_cassette-cassette_chrysopoeia": {
+			"textures": "textures/poke/cassette/cassette_chrysopoeia"
+		},
+		"poke_cassette-cassette_sobelow": {
+			"textures": "textures/poke/cassette/cassette_sobelow"
+		},
+		"poke_cassette-cassette_rubedo": {
+			"textures": "textures/poke/cassette/cassette_rubedo"
+		},
+		"poke_cassette-cassette_axolotl": {
+			"textures": "textures/poke/cassette/cassette_axolotl"
+		},
+		"poke_cassette-cassette_shuniji": {
+			"textures": "textures/poke/cassette/cassette_shuniji"
+		},
+		"poke_cassette-cassette_dragonfish": {
+			"textures": "textures/poke/cassette/cassette_dragonfish"
+		},
+		"poke_cassette-cassette_afamiliarroom": {
+			"textures": "textures/poke/cassette/cassette_aFamiliarRoom"
+		},
+		"poke_cassette-cassette_crescentdunes": {
+			"textures": "textures/poke/cassette/cassette_crescentdunes"
+		},
+		"poke_cassette-cassette_echointhewind": {
+			"textures": "textures/poke/cassette/cassette_echointhewind"
+		},
+		"poke_cassette-cassette_bromeliad": {
+			"textures": "textures/poke/cassette/cassette_bromeliad"
+		},
+		"poke_cassette-cassette_aerie": {
+			"textures": "textures/poke/cassette/cassette_aerie"
+		},
+		"poke_cassette-cassette_labyrinthine": {
+			"textures": "textures/poke/cassette/cassette_labyrinthine"
+		},
+		"poke_cassette-cassette_firebugs": {
+			"textures": "textures/poke/cassette/cassette_firebugs"
+		},
+		"poke_cassette-cassette_featherfall": {
+			"textures": "textures/poke/cassette/cassette_featherfall"
+		},
+		"poke_cassette-cassette_puzzlebox": {
+			"textures": "textures/poke/cassette/cassette_puzzlebox"
+		},
+		"poke_cassette-cassette_pokopoko": {
+			"textures": "textures/poke/cassette/cassette_pokopoko"
+		},
+		"poke_cassette-cassette_komorebi": {
+			"textures": "textures/poke/cassette/cassette_komorebi"
+		},
+		"poke_cassette-cassette_watcher": {
+			"textures": "textures/poke/cassette/cassette_watcher"
+		},
+		"poke_cassette-cassette_yakusoku": {
+			"textures": "textures/poke/cassette/cassette_yakusoku"
+		},
+		"poke_cassette-cassette_eldunknown": {
+			"textures": "textures/poke/cassette/cassette_eldunknown"
+		},
+		"poke_cassette-cassette_endless": {
+			"textures": "textures/poke/cassette/cassette_endless"
+		},
+		"poke_cassette-cassette_deeper": {
+			"textures": "textures/poke/cassette/cassette_deeper"
+		},
+		"poke_cassette-cassette_creator_mb": {
+			"textures": "textures/poke/cassette/cassette_creator_mb"
+		},
+		"poke_cassette-cassette_precipice": {
+			"textures": "textures/poke/cassette/cassette_precipice"
+		},
+		"poke_cassette-cassette_creator": {
+			"textures": "textures/poke/cassette/cassette_creator"
+		},
+		"poke_cassette-cassette_mc_disc_cat": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_cat"
+		},
+		"poke_cassette-cassette_mc_disc_blocks": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_blocks"
+		},
+		"poke_cassette-cassette_mc_disc_chirp": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_chirp"
+		},
+		"poke_cassette-cassette_mc_disc_far": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_far"
+		},
+		"poke_cassette-cassette_mc_disc_mellohi": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_mellohi"
+		},
+		"poke_cassette-cassette_mc_disc_stal": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_stal"
+		},
+		"poke_cassette-cassette_mc_disc_strad": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_strad"
+		},
+		"poke_cassette-cassette_mc_disc_ward": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_ward"
+		},
+		"poke_cassette-cassette_mc_disc_11": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_11"
+		},
+		"poke_cassette-cassette_mc_disc_13": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_13"
+		},
+		"poke_cassette-cassette_mc_disc_wait": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_wait"
+		},
+		"poke_cassette-cassette_mc_disc_mall": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_mall"
+		},
+		"poke_cassette-cassette_mc_disc_pigstep": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_pigstep"
+		},
+		"poke_cassette-cassette_mc_disc_5": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_5"
+		},
+		"poke_cassette-cassette_mc_disc_otherside": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_otherside"
+		},
+		"poke_cassette-cassette_mc_disc_relic": {
+			"textures": "textures/poke/cassette/cassette_mc_disc_relic"
+		},
+		"poke_cassette-cassette_listener": {
+			"textures": "textures/poke/cassette/cassette_listener"
+		},
+		"poke_cassette-cassette_galactic_march": {
+			"textures": "textures/poke/cassette/cassette_galactic_march"
+		},
+		"poke_cassette-empty_cassette": {
+			"textures": "textures/poke/cassette/empty_cassette"
+		}
+	},
+	"resource_pack_name": "Poke",
+	"texture_name": "atlas.items"
+}

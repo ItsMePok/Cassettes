@@ -1,0 +1,49 @@
+{
+	"header": {
+		"name": "v1.0 Cassettes",
+		"description": "pack.description",
+		"pack_scope": "any",
+		"uuid": "c27ad14d-1153-4b91-8f2a-6015c6a785b1",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			60
+		]
+	},
+	"modules": [
+		{
+			"description": "Poke-Cassettes",
+			"type": "resources",
+			"uuid": "25dc3d6e-de8c-43c0-963b-c04f202eb83f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{ //BP Manifest
+			"uuid": "88d48db7-5f8d-4d54-b76a-27bf2817dca5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"format_version": 2,
+	"metadata": {
+		"url": "https://github.com/ItsMePok/Cassettes",
+		"license": "MIT", // RP/LICENSE
+		"product_type": "addon",
+		"authors": [
+			"ItsMePok"
+		]
+	}
+}

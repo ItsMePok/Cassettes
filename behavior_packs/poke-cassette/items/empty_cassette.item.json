@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "poke_cassette:empty_cassette"
+    },
+    "components": {
+      "minecraft:rarity": "common",
+      "minecraft:icon": "poke_cassette-empty_cassette",
+      "minecraft:custom_components": [
+        "poke_cassette:cassette"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_cassette:empty_cassette"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:iron_ingot"
+			},
+			"T": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:quartz"
+			},
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"tag": "minecraft:music_disc"
+			},
+			{
+				"item": "disc_fragment_5"
+			}
+		],
+		"pattern": [
+			"PPP",
+			"TPT",
+			"PPP"
+		],
+		"result": {
+			"item": "poke_cassette:empty_cassette"
+		}
+	}
+}

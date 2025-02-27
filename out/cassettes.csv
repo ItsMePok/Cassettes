@@ -1,0 +1,4 @@
+Test,TestId,Type,Item,Message,Data,Path
+CADDONREQ,101,Test fail,,"Found a loose file in the item_catalog folder. Should only see files in the folder item_catalog\creatorshortname\gamename\","crafting_item_catalog.json",,
+WORLDDATA,1,Test success,,"Test World Data Validation completed successfully.",,,
+CADDONIREQ,1,Test success,,"Test Cooperative Add-On Item Requirements Generator completed successfully.",,,

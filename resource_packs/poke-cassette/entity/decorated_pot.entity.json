@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:decorated_pot",
+      "textures": {
+        "poke_cassette-cassette_pottery_sherd": "textures/poke/cassette/cassette_pottery_block"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "poke_cassette:cassette_trader",
+			"materials": {
+				"default": "entity_alphatest",
+				"masked": "entity_multitexture_masked"
+			},
+			"textures": {
+				"default": "textures/poke/cassette/cassette_trader" //2
+			},
+			"geometry": {
+				"default": "geometry.poke_cassette.cassette_trader"
+			},
+			"animations": {
+				"general": "animation.poke_cassette.cassette_trader.general",
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.poke_cassette.cassette_trader.move",
+				"move_controller": "controller.animation.poke_cassette.cassette_trader.move",
+				"general_controller": "controller.animation.poke_cassette.cassette_trader.general",
+				"idle": "animation.poke_cassette.cassette_trader.idle"
+			},
+			"scripts": {
+				"animate": [
+					"idle",
+					"move_controller",
+					"general_controller"
+				]
+			},
+			"render_controllers": [
+				"controller.render.poke_pfe.default"
+			],
+			"spawn_egg": {
+				"texture": "poke_cassette-cassette_trader_spawn_egg"
+			},
+			"enable_attachables": true,
+			"hide_armor": false
+		}
+	}
+}
